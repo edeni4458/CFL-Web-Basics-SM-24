@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    
+}
+.nav-bar {
+    background-color: darkgoldenrod;
+    color: white;
+    height: 50px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.nav-bar > h1 {
+    margin: 0 auto;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightsteelblue;
+    align-items: center;
+}
+
+.fav-fruits {
+    
+}

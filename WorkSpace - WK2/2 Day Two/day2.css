@@ -1,0 +1,34 @@
+body {
+    margin: 0 auto;
+}
+
+
+.header-container {
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+    color:white ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+    
+}
+.download-container > h4{
+    margin-right: 8px;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.icon-container {
+    padding-right: 20px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
