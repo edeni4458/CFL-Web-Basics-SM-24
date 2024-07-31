@@ -1,0 +1,15 @@
+button{
+    height: 70px;
+}
+
+.blue{
+    background-color: blue;
+    color:white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+button:hover{
+    background-color: grey;
+}

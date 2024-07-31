@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.blue {
+    background-color: #3daaf3;
+    color: #fff;
+}
+
+.green {
+    background-color: #3bda7d;
+    color: #fff;
+}
+
+.warning {
+    background-color: #f08f3b;
+    color: #fff;
+}
+
+.red {
+    background-color: #e44331;
+    color: #fff;
+}
+
+/* Hover Styles */
+button:hover {
+    background-color: #616161;
+}
