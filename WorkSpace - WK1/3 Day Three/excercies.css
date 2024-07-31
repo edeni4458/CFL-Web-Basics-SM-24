@@ -1,0 +1,70 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 70%;
+    padding: 8px;
+    display: flex;    
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-container > .title,.my-story,.five-year,.gratitude,.million,.the-rest-of-my-life {
+    
+}
+
+.title {
+    background-color: darkblue;
+    padding: 8px;
+    border: 15px solid red;
+    border-radius: 12px;
+    color: white;
+    transition: 2s ease-out;
+}
+
+.title:hover {
+    background-color:darkolivegreen;
+    transition: 2s ease-in;
+    border: 10px solid yellow;
+
+}
+
+.my-story {
+    background-color: bisque;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.five-year {
+    background-color: forestgreen;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: white;
+}
+
+.gratitude {
+    background-color: brown;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: white;
+}
+
+.million {
+    background-color: lightseagreen;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.the-rest-of-my-life {
+    background-color: tomato;
+    padding: 8px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+}
